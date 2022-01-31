@@ -1,0 +1,87 @@
+body{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+.main_content{
+    width: 920px;
+    height: 500px;
+    margin: 170px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+
+section{
+    padding: 45px;
+}
+
+section h1{
+    margin: 40px 0;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(242, 242, 242);
+}
+
+section p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+section button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    border: rgb(242, 242, 242) solid 2px;
+    font-weight: 400;
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.blue{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.green{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange button{
+    color: hsl(31, 77%, 52%);
+}
+
+.blue button{
+    color: hsl(184, 100%, 22%);
+}
+
+.green button{
+    color: hsl(179, 100%, 13%);
+}
+
+.orange button:hover, 
+.orange button:active{
+    background-color: hsl(31, 77%, 52%);
+    color: rgb(242, 242, 242);
+    cursor: pointer;
+}
+
+.blue button:hover,
+.blue button:active{
+    background-color: hsl(184, 100%, 22%);
+    color: rgb(242, 242, 242);
+    cursor: pointer;
+}
+
+.green button:hover,
+.green button:active{
+    background-color: hsl(179, 100%, 13%);
+    color: rgb(242, 242, 242);
+    cursor: pointer;
+}
